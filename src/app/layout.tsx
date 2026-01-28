@@ -2,6 +2,7 @@ import "@/app/assets/css/globals.css";
 import "@/app/assets/css/responsive.css";
 import Header from "./layout/header";
 import { DM_Sans, Playfair_Display } from 'next/font/google'
+import Script from "next/script";
 
 export const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -24,19 +25,44 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="da" className={`${dmSans.variable} ${playfair.variable}`}>
+      <head>
+        <Script
+          id="gtm-head"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+              'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+              })(window,document,'script','dataLayer','GTM-TWXVLKMV');
+            `,
+          }}
+        />
 
-      <meta name="robots" content="noindex" />
+        <meta name="robots" content="noindex" />
 
-      <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
-      <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
-      <link rel="shortcut icon" href="/favicon/favicon.ico" />
-      <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
-      <meta name="apple-mobile-web-app-title" content="UPLIFT" />
-      <link rel="manifest" href="/favicon/site.webmanifest" />
+        <link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
+        <link rel="icon" type="image/svg+xml" href="/favicon/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png" />
+        <meta name="apple-mobile-web-app-title" content="UPLIFT" />
+        <link rel="manifest" href="/favicon/site.webmanifest" />
+      </head>
 
       <body>
         <Header />
         {children}
+        <Script
+          id="gtm-head"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWXVLKMV"
+              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            `,
+          }}
+        />
       </body>
     </html>
   );
