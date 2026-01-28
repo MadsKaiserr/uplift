@@ -4,15 +4,17 @@
 }
 
 .section__cases__wrapper {
-    max-width: 1300px;
+    max-width: 1400px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 50px;
 }
 
 .section__cases__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
+    overflow-y: scroll;
 }
 
 .section__cases__element {
@@ -21,6 +23,7 @@
     flex-direction: column;
     justify-content: space-between;
     height: 500px;
+    min-width: 350px;
 }
 
 .section__cases__element__image__container {

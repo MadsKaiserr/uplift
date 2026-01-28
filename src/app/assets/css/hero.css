@@ -4,9 +4,9 @@
 }
 
 .main__hero__wrapper {
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
-    padding: 40px 0;
+    padding: 40px 50px;
     position: relative;
     opacity: 1;
     z-index: 2;
@@ -23,12 +23,14 @@
     font-size: 64px;
     font-weight: 600;
     font-family: var(--font-playfair);
-    line-height: 100%;
+    line-height: 130%;
     padding-bottom: 24px;
 }
 
 .main__hero__heading__sans {
     font-family: var(--font-sans);
+    line-height: 100%;
+    max-width: 800px;
 }
 
 .main__hero__description {
@@ -212,6 +214,8 @@
 .main__hero__form__ansvarlig__p {
     font-size: 13px;
     font-weight: 400;
+    display: flex;
+    align-items: center;
 }
 
 .main__hero__form__ansvarlig__image {
@@ -228,8 +232,8 @@
 }
 
 .main__hero__form__trustpilot {
-    height: 18px;
+    height: 24px;
     width: auto;
     object-fit: cover;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }

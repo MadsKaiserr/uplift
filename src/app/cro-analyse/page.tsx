@@ -19,9 +19,9 @@ export default function croanalyse() {
     <>
       <div className="main__hero__container">
         <Image src={dots} className="main__hero__dots" width={600} alt="" />
-        <div className="main__hero__wrapper">
+        <div className="main__hero__wrapper main__heroform">
           <div className="main__hero__content">
-            <h1 className="main__hero__heading main__hero__heading__sans">Få op til <span className="highlight">3x flere<br/>konverteringer</span> på din<br/>hjemmeside</h1>
+            <h1 className="main__hero__heading main__hero__heading__sans">Få op til <span className="highlight">3x flere konverteringer</span> på din hjemmeside</h1>
             <p className="main__hero__description">Oplever I problemer med en lav konverteringsrate? Få lavet en <span className="bold">skræddersyet CRO-analyse af jeres hjemmeside gratis</span>.</p>
             <div className="main__hero__checklist__container">
                 <div className="main__hero__checklist__element">
@@ -55,7 +55,6 @@ export default function croanalyse() {
             </div>
           </div>
           <div className="main__hero__form">
-            {/* <Image src={trustpilot} className="main__hero__form__trustpilot" alt="Trustpilot 5 stjerner" /> */}
             <h2 className="main__hero__form__heading">Hvilket domæne skal vi <span className="highlight">analysere</span>?</h2>
             <p className="main__hero__form__p">Udfyld formularen nedenfor, så kontakter vi dig indenfor 24 timer.</p>
             <div className="main__hero__form__wrapper">

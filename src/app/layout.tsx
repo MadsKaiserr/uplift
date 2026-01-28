@@ -1,4 +1,5 @@
 import "@/app/assets/css/globals.css";
+import "@/app/assets/css/responsive.css";
 import Header from "./layout/header";
 import { DM_Sans, Playfair_Display } from 'next/font/google'
 

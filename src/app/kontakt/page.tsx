@@ -19,7 +19,7 @@ export default function Kontakt() {
     <>
       <div className="main__hero__container main__contact__hero">
         <Image src={dots} className="main__hero__dots" width={600} alt="" />
-        <div className="main__hero__wrapper">
+        <div className="main__hero__wrapper main__heroform">
           <div className="main__hero__content">
             <h1 className="main__hero__heading main__hero__heading__sans">Klar til en <span className="highlight">snak</span>?</h1>
             <p className="main__hero__description">Skal vi tage en snak? Kontakt os i dag på mail eller telefon. Vi glæder os til at høre fra dig!</p>
