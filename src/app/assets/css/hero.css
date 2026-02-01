@@ -237,3 +237,43 @@
     object-fit: cover;
     margin-bottom: 8px;
 }
+
+.main__primary__btn__spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main__hero__form__success__wrapper {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main__hero__form__success__heading {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--faded_sort);
+}
+
+.main__hero__form__success__p {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--faded_sort);
+    opacity: 0.6;
+    letter-spacing: .5px;
+    max-width: 300px;
+    text-align: center;
+    padding-top: 8px;
+}

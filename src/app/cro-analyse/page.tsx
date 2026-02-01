@@ -6,6 +6,7 @@ import Link from "next/link";
 import dots from "@/app/assets/images/Dots.svg"
 import Mads from "@/app/assets/images/MadsKaiser_cropped.webp"
 import trustpilot from "@/app/assets/images/Trustpilot.png"
+import LeadFormular from "./components/leadFormular";
 
 export const generateMetadata = () => {
   return {
@@ -54,29 +55,7 @@ export default function croanalyse() {
                 </div>
             </div>
           </div>
-          <div className="main__hero__form">
-            <h2 className="main__hero__form__heading">Hvilket domæne skal vi <span className="highlight">analysere</span>?</h2>
-            <p className="main__hero__form__p">Udfyld formularen nedenfor, så kontakter vi dig indenfor 24 timer.</p>
-            <div className="main__hero__form__wrapper">
-              <div className="main__hero__form__input__container">
-                <label className="main__hero__form__input__label">Domæne</label>
-                <input type="text" required className="main__hero__form__input" placeholder="Ex. minvirksomhed.dk" />
-              </div>
-              <button className="main__primary__btn">
-                Næste
-                <svg xmlns="http://www.w3.org/2000/svg" className="main__secondary__btn__icon" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
-                </svg>
-              </button>
-              <div className="main__hero__form__ansvarlig__container">
-                <Image src={Mads} className="main__hero__form__ansvarlig__image" alt="Mads Kaiser" />
-                <div className="main__hero__form__ansvarlig__wrapper">
-                  <p className="main__hero__form__ansvarlig__heading">Mads Kaiser, Founder & CRO Specialist</p>
-                  <p className="main__hero__form__ansvarlig__p">mbk@upliftcro.dk <span className="divider">eller</span> +45 23 96 58 58</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <LeadFormular />
         </div>
         <Image src={dots} className="main__landingpage__dots" width={400} alt="" />
       </div>

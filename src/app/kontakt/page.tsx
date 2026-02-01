@@ -1,11 +1,9 @@
 import "@/app/assets/css/hero.css";
 import "@/app/assets/css/forside.css";
 import Image from 'next/image'
-import Link from "next/link";
 
 import dots from "@/app/assets/images/Dots.svg"
-import Mads from "@/app/assets/images/MadsKaiser_cropped.webp"
-import trustpilot from "@/app/assets/images/Trustpilot.png"
+import KontaktFormular from "./components/kontaktFormular";
 
 export const generateMetadata = () => {
   return {
@@ -15,6 +13,7 @@ export const generateMetadata = () => {
 };
 
 export default function Kontakt() {
+  
   return (
     <>
       <div className="main__hero__container main__contact__hero">
@@ -44,38 +43,7 @@ export default function Kontakt() {
                 </div>
             </div>
           </div>
-          <div className="main__hero__form">
-            {/* <Image src={trustpilot} className="main__hero__form__trustpilot" alt="Trustpilot 5 stjerner" /> */}
-            <h2 className="main__hero__form__heading">Send os en <span className="highlight">besked</span></h2>
-            <p className="main__hero__form__p">Udfyld formularen nedenfor, så kontakter vi dig indenfor 24 timer.</p>
-            <div className="main__hero__form__wrapper">
-              <div className="main__hero__form__input__container">
-                <label className="main__hero__form__input__label">Navn</label>
-                <input type="text" required className="main__hero__form__input" placeholder="Fulde navn" />
-              </div>
-              <div className="main__hero__form__input__container">
-                <label className="main__hero__form__input__label">E-mail</label>
-                <input type="text" required className="main__hero__form__input" placeholder="Mailadresse" />
-              </div>
-              <div className="main__hero__form__input__container">
-                <label className="main__hero__form__input__label">Besked</label>
-                <textarea required className="main__hero__form__textarea" />
-              </div>
-              <button className="main__primary__btn">
-                Næste
-                <svg xmlns="http://www.w3.org/2000/svg" className="main__secondary__btn__icon" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8"/>
-                </svg>
-              </button>
-              <div className="main__hero__form__ansvarlig__container">
-                <Image src={Mads} className="main__hero__form__ansvarlig__image" alt="Mads Kaiser" />
-                <div className="main__hero__form__ansvarlig__wrapper">
-                  <p className="main__hero__form__ansvarlig__heading">Mads Kaiser, Founder & CRO Specialist</p>
-                  <p className="main__hero__form__ansvarlig__p">mbk@upliftcro.dk <span className="divider">eller</span> +45 23 96 58 58</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          <KontaktFormular />
         </div>
         <Image src={dots} className="main__landingpage__dots" width={400} alt="" />
       </div>
