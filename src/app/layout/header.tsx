@@ -1,7 +1,7 @@
 import "@/app/assets/css/header.css";
 import Image from 'next/image'
 
-import logo from "@/app/assets/images/UPLIFT Wordmark.png"
+import logo from "@/app/assets/images/UPLIFT Wordmark.svg"
 import Link from "next/link";
 
 export default function Header() {

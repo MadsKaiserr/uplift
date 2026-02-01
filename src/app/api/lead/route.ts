@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       <tr>
         <td align="center" style="padding: 30px 0; background-color: #ffffff; border-bottom: 1px solid #e2e8f0;">
-          <img src="https://upliftcro.dk/_next/static/media/UPLIFT%20Wordmark.a7271212.svg" alt="UPLIFT" width="150" style="display: block;" />
+          <img src="https://upliftcro.dk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUPLIFT%20Wordmark.4d4b1442.png" alt="UPLIFT" width="150" style="display: block;" />
         </td>
       </tr>
       
@@ -75,7 +75,7 @@ export async function POST(request: Request) {
     <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       <tr>
         <td align="center" style="padding: 30px 0; background-color: #ffffff; border-bottom: 1px solid #e2e8f0;">
-          <img src="https://upliftcro.dk/_next/static/media/UPLIFT%20Wordmark.a7271212.svg" alt="UPLIFT" width="150" style="display: block;" />
+          <img src="https://upliftcro.dk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUPLIFT%20Wordmark.4d4b1442.png" alt="UPLIFT" width="150" style="display: block;" />
         </td>
       </tr>
       
