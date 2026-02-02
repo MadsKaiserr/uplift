@@ -3,6 +3,7 @@ import "@/app/assets/css/responsive.css";
 import Header from "./layout/header";
 import { DM_Sans, Playfair_Display } from 'next/font/google'
 import Script from "next/script";
+import Footer from "./layout/footer";
 
 export const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -53,6 +54,7 @@ export default function RootLayout({
       <body>
         <Header />
         {children}
+        <Footer />
         <Script
           id="gtm-head"
           strategy="afterInteractive"

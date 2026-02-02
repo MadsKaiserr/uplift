@@ -2,6 +2,7 @@
 import Image from 'next/image'
 import Mads from "@/app/assets/images/MadsKaiser_cropped.webp"
 import { useState } from "react";
+import Mathias from '@/app/components/cards/mathias';
 
 export default function KontaktFormular() {
 
@@ -99,17 +100,7 @@ export default function KontaktFormular() {
                 </div>}
 
 
-                <div className="main__hero__form__ansvarlig__container">
-                    <Image src={Mads} className="main__hero__form__ansvarlig__image" alt="Mads Kaiser" />
-                    <div className="main__hero__form__ansvarlig__wrapper">
-                    <p className="main__hero__form__ansvarlig__heading">
-                        Mads Kaiser, Founder & CRO Specialist
-                    </p>
-                    <p className="main__hero__form__ansvarlig__p">
-                        mbk@upliftcro.dk <span className="divider">eller</span> +45 23 96 58 58
-                    </p>
-                    </div>
-                </div>
+                <Mathias />
             </form>
         </div>
     );

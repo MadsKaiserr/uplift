@@ -21,7 +21,7 @@ export async function POST(request: Request) {
     <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       <tr>
         <td align="center" style="padding: 30px 0; background-color: #ffffff; border-bottom: 1px solid #e2e8f0;">
-          <img src="https://upliftcro.dk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUPLIFT%20Wordmark.4d4b1442.png" alt="UPLIFT" width="150" style="display: block;" />
+          <img src="https://upliftcro.dk/UPLIFT-Wordmark.png" alt="UPLIFT" width="150" style="display: block;" />
         </td>
       </tr>
       
@@ -75,7 +75,7 @@ export async function POST(request: Request) {
     <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
       <tr>
         <td align="center" style="padding: 30px 0; background-color: #ffffff; border-bottom: 1px solid #e2e8f0;">
-          <img src="https://upliftcro.dk/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FUPLIFT%20Wordmark.4d4b1442.png" alt="UPLIFT" width="150" style="display: block;" />
+          <img src="https://upliftcro.dk/UPLIFT-Wordmark.png" alt="UPLIFT" width="150" style="display: block;" />
         </td>
       </tr>
       
@@ -97,7 +97,7 @@ export async function POST(request: Request) {
           <hr style="border: 0; border-top: 1px solid #eee; margin-bottom: 30px;" />
 
           <p style="font-size: 15px; line-height: 1.4; margin-bottom: 5px;">De bedste hilsner,</p>
-          <p style="font-size: 15px; line-height: 1.4; font-weight: bold; margin: 0;">Mathias Rasmussen</p>
+          <p style="font-size: 15px; line-height: 1.4; font-weight: bold; margin: 0;">Mathias Marquard</p>
           <p style="font-size: 14px; color: #666; margin: 0;">Co-founder & Kommunikationsansvarlig</p>
           <p style="font-size: 14px; color: #666; margin: 0;">UPLIFT ApS</p>
         </td>

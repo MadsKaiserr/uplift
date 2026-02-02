@@ -1,0 +1,11 @@
+.footer__container {
+    width: 100%;
+    border-top: #E2E2E2 1px solid;
+}
+
+.footer__wrapper {
+    width: 100%;
+    padding: 100px 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
