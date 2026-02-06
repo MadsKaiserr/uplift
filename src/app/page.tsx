@@ -105,7 +105,7 @@ export default function Home() {
                 </svg>
             </Link>
           </div>
-          <div className="section__cases__list">
+          {/* <div className="section__cases__list">
             {cases.map((item, index) => (
               <Link href={"/cases/" + item.slug} key={index} className="section__cases__element">
                 <div className="section__cases__element__image__container">
@@ -140,7 +140,7 @@ export default function Home() {
                 </div>
               </Link>
             ))}
-          </div>
+          </div> */}
         </div>
       </div>}
       <div className="section__lead__container">

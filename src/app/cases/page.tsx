@@ -31,7 +31,7 @@ export default function Cases() {
       <div className="section__cases__container__single">
         <div className="section__cases__container">
           <div className="section__cases__wrapper">
-            <div className="section__cases__list">
+            {/* <div className="section__cases__list">
               {cases.map((item, index) => (
                 <Link href={"/cases/" + item.slug} key={index} className="section__cases__element">
                   <div className="section__cases__element__image__container">
@@ -66,7 +66,7 @@ export default function Cases() {
                   </div>
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
