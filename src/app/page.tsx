@@ -94,7 +94,7 @@ export default function Home() {
         </div>
         <Image src={dots} className="main__hero__banner__dots" width={350} alt="" />
       </div>
-      <div className="section__cases__container">
+      {cases.length > 0 && <div className="section__cases__container">
         <div className="section__cases__wrapper">
           <div className="section__cases__header">
             <h2 className="section__cases__heading">Det siger vores kunder</h2>
@@ -142,7 +142,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </div>
+      </div>}
       <div className="section__lead__container">
           <div className="section__lead__wrapper">
             <div className="main__hero__content">

@@ -1,10 +1,11 @@
 import Image from 'next/image'
 import Mads from "@/app/assets/images/MadsKaiser_cropped.webp"
+import Mathias from "@/app/assets/images/Mathias-Billede-kopi.webp"
 
 export default function Card() {
   return (
     <div className="main__hero__form__ansvarlig__container">
-        <Image src={Mads} className="main__hero__form__ansvarlig__image" alt="Mathias Marquard Profilbillede" />
+        <Image src={Mathias} className="main__hero__form__ansvarlig__image" alt="Mathias Marquard Profilbillede" />
         <div className="main__hero__form__ansvarlig__wrapper">
         <p className="main__hero__form__ansvarlig__heading">
             Mathias Marquard, Co-Founder & CCO

@@ -14,8 +14,8 @@ export default function Header() {
               </Link>
               <div className="header__navigation__container">
                 <Link href="#"  className="header__navigation__link">CRO services</Link>
-                <Link href="/cases/"  className="header__navigation__link">Cases</Link>
                 <Link href="#"  className="header__navigation__link">Info</Link>
+                <Link href="/team-og-kultur/" className="header__navigation__link">Team og Kultur</Link>
                 <Link href="/kontakt/" className="header__navigation__link">Kontakt</Link>
               </div>
               <div className="header__cta__container">
